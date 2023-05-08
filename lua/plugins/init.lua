@@ -5,6 +5,18 @@ local default_plugins = {
   "nvim-lua/plenary.nvim",
 
   {
+    "neoclide/coc.nvim",
+    branch = "release",
+    lazy = false,
+  },
+
+  {
+    "sindrets/diffview.nvim",
+    dependencies = "nvim-lua/plenary.nvim",
+    lazy = false,
+  },
+
+  {
     "fedepujol/move.nvim",
     lazy = false,
   },
